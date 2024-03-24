@@ -70,15 +70,16 @@ main > #banner {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(5, 1fr);
 }
-main > bann
+main > banner {
+}
 
 /*footer 시작*/
 #footerInner {
     padding: 50px 110px 20px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     line-height: 35px;
-    position: relative;
 }
 #footerInner > #footerLogo {
     width: 116.48px;
