@@ -64,6 +64,14 @@ main {
     /* 임시로 지정한 높이 */
     height: 100vh;
 }
+main > #banner {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+main > bann
+
 /*footer 시작*/
 #footerInner {
     padding: 50px 110px 20px;
