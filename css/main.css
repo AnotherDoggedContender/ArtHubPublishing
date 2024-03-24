@@ -70,8 +70,6 @@ main > #banner {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(5, 1fr);
 }
-main > banner {
-}
 
 /*footer 시작*/
 #footerInner {
